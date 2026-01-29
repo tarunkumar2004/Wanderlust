@@ -1,5 +1,5 @@
 const Joi = require("joi");
-const { comment } = require("postcss");
+// const { comment } = require("postcss");
 
 module.exports.listingSchema = Joi.object({
     listing : Joi.object({
